@@ -1,0 +1,50 @@
+.chats {
+    max-width: 700px;
+    width: 100%;
+    flex: 1;
+  
+    /* ✅ auto = scrollbar only when needed (removes that white line) */
+    overflow-y: auto;
+  
+    /* ✅ your padding was huge and made the box weird */
+    padding: 2rem 1rem;
+  
+    box-sizing: border-box;
+  }
+  
+  /* Optional: hide scrollbar completely (nice clean look) */
+  .chats::-webkit-scrollbar {
+    width: 0px;
+  }
+  .chats {
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .userDiv {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+  }
+  
+  .gptDiv {
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  
+  .userMessage {
+    background-color: #323232;
+    padding: 10px 20px;
+    border-radius: 14px;
+    margin-left: 15rem;
+    max-width: 500px;
+    width: fit-content;
+  }
+  
+  .hljs {
+    border-radius: 14px !important;
+  }
+  
+  pre {
+    white-space: pre-wrap;
+  }
+  
