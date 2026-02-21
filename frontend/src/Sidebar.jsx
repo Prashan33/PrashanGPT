@@ -23,14 +23,12 @@ function Sidebar() {
       const response = await fetch(`${API_URL}/api/thread`);
       const res = await response.json();
   
-     
       if (!response.ok) {
         console.log("Backend error:", res);
-        setAllThreads([]); 
+        setAllThreads([]);
         return;
       }
   
-     
       if (!Array.isArray(res)) {
         console.log("Expected array, got:", res);
         setAllThreads([]);
