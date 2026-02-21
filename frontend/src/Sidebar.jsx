@@ -22,13 +22,30 @@ function Sidebar() {
     try {
       const response = await fetch(`${API_URL}/api/thread`);
       const res = await response.json();
+  
+     
+      if (!response.ok) {
+        console.log("Backend error:", res);
+        setAllThreads([]); 
+        return;
+      }
+  
+     
+      if (!Array.isArray(res)) {
+        console.log("Expected array, got:", res);
+        setAllThreads([]);
+        return;
+      }
+  
       const filteredData = res.map((thread) => ({
         threadId: thread.threadId,
         title: thread.title,
       }));
+  
       setAllThreads(filteredData);
     } catch (err) {
       console.log(err);
+      setAllThreads([]);
     }
   };
 

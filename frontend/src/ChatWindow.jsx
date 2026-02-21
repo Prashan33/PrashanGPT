@@ -61,7 +61,7 @@ function ChatWindow() {
     return (
         <div className="chatWindow">
             <div className="navbar">
-                <span>PrashanGPT <i className="fa-solid fa-chevron-down"></i></span>
+                <span>SigmaGPT <i className="fa-solid fa-chevron-down"></i></span>
                 <div className="userIconDiv" onClick={handleProfileClick}>
                     <span className="userIcon"><i className="fa-solid fa-user"></i></span>
                 </div>

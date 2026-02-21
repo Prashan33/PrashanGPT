@@ -12,7 +12,7 @@ function Chat() {
   useEffect(() => {
     if (reply === null) {
       setLatestReply(null);
-      return;
+      return;ç
     }
 
     if (!prevChats?.length) return;
