@@ -134,18 +134,10 @@ PrashanGPT/
 
 ---
 
-## 8. Screenshots / Demo
-
-> *Add screenshots or a demo GIF here once available.*
-
-- `docs/screenshot-home.png` — landing / new chat screen
-- `docs/screenshot-chat.png` — live chat with markdown + code
-- `docs/screenshot-sidebar.png` — thread history and switching
-- **Live demo:** `https://prashangpt-1.onrender.com`
 
 ---
 
-## 9. Installation and Setup
+## 8. Installation and Setup
 
 ### Prerequisites
 
@@ -213,7 +205,7 @@ npm run preview
 
 ---
 
-## 10. Usage
+## 9. Usage
 
 1. Open the app — a new thread is created automatically with a fresh UUID.
 2. Type a prompt and press **Enter** (or click the send icon).
@@ -226,7 +218,7 @@ npm run preview
 
 ---
 
-## 11. Future Improvements
+## 10. Future Improvements
 
 - **User authentication** (JWT / OAuth) so threads are scoped per user.
 - **Streaming responses** via Server-Sent Events or WebSockets instead of polled completions.
@@ -239,7 +231,7 @@ npm run preview
 
 ---
 
-## 12. Why This Project Stands Out
+## 11. Why This Project Stands Out
 
 - **End-to-end ownership** — data model, API, UI, deployment, and CORS are all designed and shipped as one cohesive system.
 - **Clean separation of concerns** — the OpenAI call is isolated in a single utility, the schema is explicit, and state is managed through React Context rather than prop-drilling.
@@ -250,7 +242,7 @@ npm run preview
 
 ---
 
-## 13. Author
+## 12. Author
 
 **Prashan Adhikari**
 Full-stack developer focused on building practical, user-facing products with modern JavaScript, React, and Node.js.
