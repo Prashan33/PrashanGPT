@@ -255,5 +255,5 @@ npm run preview
 **Prashan Adhikari**
 Full-stack developer focused on building practical, user-facing products with modern JavaScript, React, and Node.js.
 
-- GitHub: `@PrashanCODE`
-- Email: `prasuadhikari33@gmail.com`
+- GitHub: `@Prashan33`
+- Email: `prashandhikari2486@gmail.com`
